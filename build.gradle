@@ -1,5 +1,6 @@
 plugins {
     id 'java'
+    id "org.sonarqube" version "4.2.1.3168"
 }
 
 group = 'org.example'
@@ -7,6 +8,13 @@ version = '1.0-SNAPSHOT'
 
 repositories {
     mavenCentral()
+}
+sonarqube {
+    properties {
+        property "sonar.projectKey", "BrAt4iTeRa_practiseBSUIR"
+        property "sonar.organization", "brat4itera"
+        property "sonar.host.url", "https://sonarcloud.io"
+    }
 }
 
 dependencies {
