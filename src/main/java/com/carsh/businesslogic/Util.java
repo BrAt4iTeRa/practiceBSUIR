@@ -1,4 +1,4 @@
-package com.carSh.bLogic;
+package com.carsh.businesslogic;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

@@ -1,4 +1,4 @@
-package com.carSh.dao;
+package com.carsh.dao;
 
 public interface ClManufacturerDao {
 

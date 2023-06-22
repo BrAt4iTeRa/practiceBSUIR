@@ -1,4 +1,4 @@
-package com.carSh.interactionWithUser;
+package com.carsh.interactionwithuser;
 
 import java.util.Scanner;
 

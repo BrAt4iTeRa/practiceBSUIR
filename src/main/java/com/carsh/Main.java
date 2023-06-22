@@ -1,9 +1,9 @@
-package com.carSh;
+package com.carsh;
 
 
-import com.carSh.entity.Car;
-import com.carSh.entity.ClUser;
-import com.carSh.interactionWithUser.CarInteraction;
+import com.carsh.entity.Car;
+import com.carsh.entity.ClUser;
+import com.carsh.interactionwithuser.CarInteraction;
 
 import java.sql.SQLException;
 import java.util.Scanner;

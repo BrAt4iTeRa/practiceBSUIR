@@ -1,14 +1,13 @@
-package com.carSh.service;
+package com.carsh.service;
 
-import com.carSh.bLogic.Util;
-import com.carSh.dao.CarDao;
-import com.carSh.entity.Car;
+import com.carsh.businesslogic.Util;
+import com.carsh.dao.CarDao;
+import com.carsh.entity.Car;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.util.Scanner;
 import java.util.Vector;
 
 public class CarService extends Util implements CarDao {
@@ -21,28 +20,28 @@ public class CarService extends Util implements CarDao {
         ResultSet resultSet = prepStatement.executeQuery();
         while(resultSet.next()){
             Car car = new Car();
-            car.setCarID(resultSet.getInt("carID"));
+            car.setCarId(resultSet.getInt("carID"));
             car.setNameCar(resultSet.getString("carName"));
             car.setPrice(resultSet.getInt("price"));
-            car.setMarketID(resultSet.getInt("marketID"));
-            car.setBrandID(resultSet.getInt("marketID"));
+            car.setMarketId(resultSet.getInt("marketID"));
+            car.setBrandId(resultSet.getInt("marketID"));
             carList.add(car);
         }
         return carList;
     }
 
     @Override
-    public Car getCarsInfo(int ID) throws SQLException {
+    public Car getCarsInfo(int id) throws SQLException {
         Connection conn = getConnection();
         Car car = new Car();
         PreparedStatement prepStatement = conn.prepareStatement("SELECT * FROM cars WHERE carID = ?");
         ResultSet resultSet = prepStatement.executeQuery();
         while(resultSet.next()){
-            car.setCarID(resultSet.getInt("carID"));
+            car.setCarId(resultSet.getInt("carID"));
             car.setNameCar(resultSet.getString("carName"));
             car.setPrice(resultSet.getInt("price"));
-            car.setMarketID(resultSet.getInt("marketID"));
-            car.setBrandID(resultSet.getInt("marketID"));
+            car.setMarketId(resultSet.getInt("marketID"));
+            car.setBrandId(resultSet.getInt("marketID"));
         }
         return car;
     }
@@ -51,7 +50,7 @@ public class CarService extends Util implements CarDao {
     public void deleteCar(Car car) throws SQLException {
         Connection conn = getConnection();
         PreparedStatement preparedStatement = conn.prepareStatement("DELETE FROM cars WHERE carID = ?");
-        preparedStatement.setInt(1, car.getCarID());
+        preparedStatement.setInt(1, car.getCarId());
         preparedStatement.executeUpdate();
     }
 //////////////Доделать
@@ -72,7 +71,7 @@ public class CarService extends Util implements CarDao {
 
         prepStatement.setString(1, car.getNameCar());
         prepStatement.setInt(2, car.getPrice());
-        prepStatement.setInt(3, car.getCarID());
+        prepStatement.setInt(3, car.getCarId());
         prepStatement.executeUpdate();
     }
 
@@ -80,7 +79,7 @@ public class CarService extends Util implements CarDao {
     @Override
     public void printCars(Vector<Car> cars) {
         for (int i = 0; i < cars.size(); i++){
-            System.out.printf("%d %s %d\n", cars.elementAt(i).getCarID(), cars.elementAt(i).getNameCar(), cars.elementAt(i).getPrice());
+            System.out.printf("%d %s %d\n", cars.elementAt(i).getCarId(), cars.elementAt(i).getNameCar(), cars.elementAt(i).getPrice());
         }
     }
 }

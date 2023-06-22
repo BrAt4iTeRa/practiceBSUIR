@@ -5,7 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d8f08b3-4da6-4494-8f63-47e60628b58e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/carSh/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/carsh/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/carSh/bLogic/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/carsh/businesslogic/Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/carSh/dao/CarDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/carsh/dao/CarDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/carSh/dao/ClManufacturerDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/carsh/dao/ClManufacturerDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/carSh/dao/ClUserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/carsh/dao/ClUserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/carSh/dao/OrderDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/carsh/dao/OrderDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/carSh/entity/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/carsh/entity/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/carSh/entity/ClManufacturer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/carsh/entity/ClManufacturer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/carSh/entity/ClUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/carsh/entity/ClUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/carSh/entity/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/carsh/entity/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/carSh/interactionWithUser/CarInteraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/carsh/interactionwithuser/CarInteraction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/carSh/interactionWithUser/ClUserInteraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/carsh/interactionwithuser/ClUserInteraction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/carSh/interactionWithUser/OrderInteraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/carsh/interactionwithuser/OrderInteraction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/carSh/service/CarService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/carsh/service/CarService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/carSh/service/ClUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/carsh/service/ClUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/carSh/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/carsh/service/OrderService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +93,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1687415172496</updated>
-      <workItem from="1687415173626" duration="7701000" />
+      <workItem from="1687415173626" duration="8874000" />
     </task>
     <servers />
   </component>
@@ -88,17 +104,17 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/carSh/interactionWithUser/CarInteraction.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/carsh/interactionwithuser/CarInteraction.java</url>
           <line>76</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/carSh/service/CarService.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/carsh/service/CarService.java</url>
           <line>51</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/carSh/interactionWithUser/CarInteraction.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/carsh/interactionwithuser/CarInteraction.java</url>
           <line>43</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>

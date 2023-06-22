@@ -1,8 +1,8 @@
-package com.carSh.interactionWithUser;
+package com.carsh.interactionwithuser;
 
-import com.carSh.bLogic.Util;
-import com.carSh.entity.Car;
-import com.carSh.service.CarService;
+import com.carsh.businesslogic.Util;
+import com.carsh.entity.Car;
+import com.carsh.service.CarService;
 
 import java.sql.SQLException;
 import java.util.Scanner;
@@ -15,7 +15,7 @@ public class CarInteraction extends Util {
     }
     public Vector<Car> printCars(Vector<Car> cars) {
         for (int i = 0; i < cars.size(); i++){
-            System.out.printf("%d %s %d\n", cars.elementAt(i).getCarID(), cars.elementAt(i).getNameCar(), cars.elementAt(i).getPrice());
+            System.out.printf("%d %s %d\n", cars.elementAt(i).getCarId(), cars.elementAt(i).getNameCar(), cars.elementAt(i).getPrice());
         }
         return cars;
     }
@@ -42,7 +42,7 @@ public class CarInteraction extends Util {
         Scanner num = new Scanner(System.in);
         int ID = num.nextInt();
         for (int i = 0; i < cars.size(); i ++)
-            if (cars.elementAt(i).getCarID() == ID)
+            if (cars.elementAt(i).getCarId() == ID)
                 car = cars.elementAt(i);
     }
 

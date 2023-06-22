@@ -1,9 +1,9 @@
-package com.carSh.service;
+package com.carsh.service;
 
-import com.carSh.bLogic.Util;
-import com.carSh.dao.ClUserDao;
-import com.carSh.entity.Car;
-import com.carSh.entity.ClUser;
+import com.carsh.businesslogic.Util;
+import com.carsh.dao.ClUserDao;
+import com.carsh.entity.Car;
+import com.carsh.entity.ClUser;
 
 import java.sql.SQLException;
 import java.util.Vector;
@@ -16,7 +16,7 @@ public class ClUserService extends Util implements ClUserDao {
     }
 
     @Override
-    public Car getUsersInfo(int ID) throws SQLException {
+    public Car getUsersInfo(int id) throws SQLException {
         return null;
     }
 

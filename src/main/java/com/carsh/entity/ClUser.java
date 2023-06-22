@@ -1,10 +1,9 @@
-package com.carSh.entity;
+package com.carsh.entity;
 
 import java.sql.*;
-import java.util.Scanner;
 
 public class ClUser {
-    private int userID;
+    private int userId;
     private String userEmail;
     private String userName;
     private String userPhone;
@@ -18,8 +17,8 @@ public class ClUser {
     String getUserPhone(){
         return userPhone;
     }
-    int getUserID(){
-        return userID;
+    int getUserId(){
+        return userId;
     }
 
     public void setUserName(String userName) {
@@ -34,7 +33,7 @@ public class ClUser {
         this.userEmail = userEmail;
     }
 
-    public void setUserID(int userID) {
-        this.userID = userID;
+    public void setUserId(int userId) {
+        this.userId = userId;
     }
 }
